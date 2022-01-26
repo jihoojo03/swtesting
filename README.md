@@ -1,7 +1,7 @@
 <!--Heading-->
 # SW Testing
 
-This repository based on 2021-2 **SW Testing** class.
+This repository based on 2021-2 **Special Topic (SW Testing)** class.
 
 <!-- Quote-->
 > The 5 labs conducted in this class are presented below.
@@ -18,4 +18,16 @@ measure the line/branch coverage of each test case execution
 
 ```
 ./lab1/task1_1.sh
+```
+
+## Lab 2
+
+- Task 1 : Test *tcas.c* to achieve as much MC/DC coverage possible
+    - Identify all basic-conditions and decisions in a target program
+    - Manually instrument the target program to extract the evaluation of each basic condition and each decision when it is executed
+    - Count the number of the lines and the branches covered by the test set 
+    - Write a report to show the MC/DC coverage of your test set
+
+```
+./lab2/run.sh
 ```
