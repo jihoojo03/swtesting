@@ -31,3 +31,20 @@ measure the line/branch coverage of each test case execution
 ```
 ./lab2/run.sh
 ```
+
+## Lab 3
+- Task 1 : Suppose that you are asked to derive input space partitioning test inputs for the **Bounded Queue** class with the following methods
+    - public **BoundedQueue** (int capacity)
+    - public void **enqueue** (Object obj)
+    - public Object **dequeue** ( )
+    - public boolean **isEmpty** ( )
+    - public boolean **isFull** ( )
+
+
+```
+    a) Identify all of the input variables including the state variables 
+    b) Define interface-based and functionality-based characteristics
+    c) Partition the characteristics into blocks, and define the base cases
+    d) Find values for each block
+    e) Define a test set that satisfies Base Choice Coverage (BCC)
+```
