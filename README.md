@@ -48,3 +48,18 @@ measure the line/branch coverage of each test case execution
     d) Find values for each block
     e) Define a test set that satisfies Base Choice Coverage (BCC)
 ```
+
+## Lab 4
+- Task 1 : Modify **heapsort.c** for CREST to generate test inputs
+    - Run CREST to generate test inputs and find errors
+    - Find a bug and fix it
+    - Run CREST for the fixed version to check the correctness
+
+```
+- CRESTIVE, a revised version of CREST can be found at
+    https://github.com/ARISE-Handong/crestive
+- Construct an instrumented target program
+$ crestc <target file>
+- Execute concolic test generation
+$ run_crest <instrumented object> <# test cases> - [dfs|cfg|random]
+```
